@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications-Shreya Gupta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- Floating Navigation Panel -->
+  <nav class="fixed top-5 left-1/2 w-11/12 max-w-5xl transform -translate-x-1/2 bg-gray-800 rounded-lg shadow-lg z-50">
+     <div class="container mx-auto px-4">
+       <div class="flex items-center justify-between py-4">
+         <!-- Logo and Title Container -->
+         <div class="flex items-center">
+           <a href="#" class="text-2xl font-mono font-bold text-white">Shreya Gupta</a>
+         </div>
+
+         <!-- Mobile menu button -->
+         <div class="lg:hidden">
+           <button id="nav-toggle" class="text-white focus:outline-none">
+             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+             </svg>
+           </button>
+         </div>
+
+         <!-- Nav Links -->
+         <div class="hidden lg:flex space-x-8">
+           <a href="index.html" class="text-white font-mono hover:bg-gray-700 px-3 py-2 rounded-md transition duration-300">Home</a>
+           <a href="Blogs.html" class="text-white font-mono hover:bg-gray-700 px-3 py-2 rounded-md transition duration-300">Blogs</a>
+           <a href="Publications.html" class="text-white font-mono hover:bg-gray-700 px-3 py-2 rounded-md transition duration-300">Publications</a>
+           <a href="#" class="text-white font-mono hover:bg-gray-700 px-3 py-2 rounded-md transition duration-300">CV</a>
+         </div>
+       </div>
+
+       <!-- Mobile Menu -->
+       <div id="mobile-menu" class="lg:hidden hidden py-4 rounded-b-lg">
+         <a href="index.html" class="block py-2 text-white hover:bg-gray-700 px-3 rounded-md transition duration-300">Home</a>
+         <a href="Blogs.html" class="block py-2 text-white hover:bg-gray-700 px-3 rounded-md transition duration-300">Blogs</a>
+         <a href="Publications.html" class="block py-2 text-white hover:bg-gray-700 px-3 rounded-md transition duration-300">Publications</a>
+         <a href="#" class="text-white font-mono hover:bg-gray-700 px-3 py-2 rounded-md transition duration-300">CV</a>
+       </div>
+     </div>
+   </nav>
+
+
+<main class="container flex flex-col items-center justify-center font-mono lg:w-7/12 mx-auto px-4 pt-32 pb-12">
+     <!-- Header for Projects -->
+     <div class="mb-6">
+       <h1 class="text-4xl font-bold align-left">Hi!<br></h1>
+     </div>
+     <h4 class="text-2xl font-mono font-bold mb-6">
+     I am a Solutions Architect in Gen-AI at Nvidia. Previously I was a founding machine learning engineer at Lamini AI where I created a software stack for enterprise customers to develop and host their custom production-ready LLMs.
+      <br><br>
+     My interests and experiences lie in development, productionization, and optimization of AI models, through human-inspired or divergent mechanisms. I completed my Masters from Stanford in the Symbolic Systems program in the summer of 2023, where I worked with Prof. Fei-Fei Li on decoding EEG-brain signals for robotic manipulation. I also worked with Prof. Justin Gardner to design deep learning algorithms for modeling areas of the Visual Temporal Cortex on fMRI NSD Dataset. I interned at Google Translate working on scaling laws for neural-based evaluation metrics for machine translation models.
+     <br><br>
+     I am passionate about research in theoretical and applied deep learning and NLP. I was an NSF-funded RIPS Scholar at the Institute of Pure and Applied Mathematics at UCLA where I worked with Ads and Privacy teams at Google, LA on devising privacy protection frameworks. 
+     <br><br>
+     I am passionate about communities and aim to create equal opportunities in STEM by promoting diversity and inclusion. I was a Lead at Women Who Code Delhi and founded the community MLNerdie x Delhi to bridge the gap between academia and industry in machine learning. For my initiatives, I was awarded the Google Women Techmakers Scholarship in 2019.
+     <br><br>
+     Relevant Tags: Machine Learning, Artificial Intelligence, Large Language Models, Multimodal systems, Cognitive Neuroscience, Women In STEM
+     </h4>
+   </main>
+
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    navToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  <!-- Footer -->
+   <footer class="bg-gray-800 py-12 px-4 text-center">
+     <h3 class="text-5xl font-mono font-bold mb-8">Shreya Gupta</h3>
+     <h4 class="text-3xl font-mono font-bold mb-6">Get in touch at</h4>
+     <a href="shreyagupta0806@gmail.com" class="inline-block mb-12">
+       <button class="px-6 py-3 dark:bg-gray-700 text-white font-mono font-bold rounded-lg shadow-md hover:bg-gray-600 transition duration-300">
+         Email Me
+       </button>
+     </a>
+     <h4 class="text-3xl font-mono font-bold mb-6">Or Contact me here 👇</h4>
+     <div class="flex flex-wrap justify-center gap-4 mb-8">
+       <a href="https://github.com/Subhadeep-Paul5" class="w-16 h-16 md:w-20 md:h-20">
+         <img src="github.jpg" class="w-full h-full rounded-lg border border-gray-300 object-cover" alt="GitHub">
+       </a>
+       <a href="https://www.linkedin.com/in/subhadeep-paul-645621317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="w-16 h-16 md:w-20 md:h-20">
+         <img src="linkedin.png" class="w-full h-full rounded-lg border border-gray-300 object-cover" alt="LinkedIn">
+       </a>
+       <a href="https://x.com/Subhadeep_Paul5?s=09" class="w-16 h-16 md:w-20 md:h-20">
+         <img src="X.png" class="w-full h-full rounded-lg border border-gray-300 object-cover" alt="X">
+       </a>
+       <a href="https://www.instagram.com/subhadeep.paul5/profilecard/?igsh=a21wbDh2ZWw5cTZh" class="w-16 h-16 md:w-20 md:h-20">
+         <img src="instagram.jpeg" class="w-full h-full rounded-lg border border-gray-300 object-cover" alt="Instagram">
+       </a>
+     </div>
+     <p>&copy; 2024 Shreya Gupta. All Rights Reserved.</p>
+   </footer>
+
+</body>
+</html>
